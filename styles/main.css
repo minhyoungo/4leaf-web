@@ -8,6 +8,8 @@
   align-items: center;
   justify-content: space-around;
   color: #ffffff;
+
+  position: fixed;
 }
 
 .menuBtn {
@@ -21,17 +23,23 @@
 
 .content-1 {
   height: 100vh;
-  font-size: 100px;
-  color: #efc15a;
   width: 100%;
   background-image: url(../images/4l-bg_1.jpg);
   background-size: cover;
+  padding-top: 198px;
+}
+
+.content-1__W-D {
+  font-size: 100px;
+  color: #efc15a;
 }
 
 .scrollBtns {
   font-size: 20px;
   color: #efc15a;
-  margin-left: 1350px;
+  margin-top: 400px;
+  margin-left: 90%;
+  position: fixed;
 }
 .scrollBtn-2,
 .scrollBtn-3,
@@ -44,55 +52,120 @@
 }
 
 .scrollDown {
-  width: 36.83px;
-  height: 36.73px;
-  opacity: 0.3;
-  margin-top: 200px;
-  margin-left: 700px;
+  margin-top: 350px;
+  color: #f8b62c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+scroll-down {
+  font-size: 15px;
+  position: fixed;
+}
+
 .content-2 {
   background-image: url(../images/4l-bg_2.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  font-size: 100px;
+  color: #f8b62c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  font-size: 50px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .content-3 {
   background-image: url(../images/4l-bg_3.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  font-size: 100px;
 }
+
 .content-4 {
   background-image: url(../images/4l-bg_4.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  color: #ffffff;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-5 {
   background-image: url(../images/4l-bg_5.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  color: #ffffff;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-6 {
   background-image: url(../images/4l-bg_6.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  color: #f8b62c;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-7 {
   background-image: url(../images/4l-bg_7.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  color: #f8b62c;
+  font-size: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .content-8 {
   background-image: url(../images/4l-bg_8.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
+.content-8_2 {
+  color: #f8b62c;
+}
 .footer-bar {
   display: flex;
   flex-direction: row;
@@ -101,4 +174,5 @@
   background-color: #0b0b0b;
   color: #ffffff;
   height: 70px;
+  font-size: small;
 }
