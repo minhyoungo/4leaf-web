@@ -36,27 +36,20 @@
 
 .scrollBtns {
   font-size: 20px;
-  color: #efc15a;
+
   margin-top: 400px;
   margin-left: 90%;
   position: fixed;
-}
-.scrollBtn-2,
-.scrollBtn-3,
-.scrollBtn-4,
-.scrollBtn-5,
-.scrollBtn-6,
-.scrollBtn-7,
-.scrollBtn-8 {
-  opacity: 0.3;
+  display: flex;
+  flex-direction: column;
 }
 
 .scrollDown {
   margin-top: 350px;
   color: #f8b62c;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  position: fixed;
 }
 scroll-down {
   font-size: 15px;
@@ -163,6 +156,13 @@ scroll-down {
   align-items: center;
 }
 
+.content-8_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .content-8_2 {
   color: #f8b62c;
 }
@@ -175,4 +175,7 @@ scroll-down {
   color: #ffffff;
   height: 70px;
   font-size: small;
+}
+
+footer-bar {
 }

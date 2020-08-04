@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
+
+    <style>
+      a:visited {
+        opacity: 0.3;
+      }
+    </style>
   </head>
   <body>
     <header class="header-bar">
@@ -21,22 +27,37 @@
     </header>
     <div class="contents">
       <div class="scrollBtns">
-        <div class="scrollBtn-1"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-2"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-3"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-4"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-5"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-6"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-7"><i class="fas fa-circle"></i></div>
-        <br />
-        <div class="scrollBtn-8"><i class="fas fa-circle"></i></div>
-        <br />
+        <a class="scrollBtn-1" href="#content-1 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-2" href="#content-2 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-3" href="#content-3 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-4" href="#content-4 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-5" href="#content-5 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-6" href="#content-6 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-7" href="#content-7 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
+
+        <a class="scrollBtn-8" href="#content-8 ">
+          <i class="fas fa-circle" style="color: #efc15a;"></i>
+        </a>
       </div>
       <div class="content-1">
         <div class="content-1__W-D">
@@ -46,11 +67,11 @@
 
         <div class="scrollDown">
           <div class="scroll-down">Scroll Down</div>
-          <i class="fas fa-sort-down fa-3x"></i>
+          <i id="down-icon" class="fas fa-sort-down fa-3x"></i>
         </div>
       </div>
 
-      <div class="content-2 content">
+      <div class="content-2 content" id="content-2">
         <div class="content-2__first first">
           <div>With</div>
           <div>the best</div>
@@ -82,7 +103,7 @@
         <a href="../../../../../">
           <div>Let’s Create Your Website</div>
           <div>
-            <div>
+            <div class="content-8_1">
               with
               <span class="content-8_2">4leaf</span>
             </div>
@@ -98,5 +119,7 @@
       <div class="email">E 4LEAF.YSH@gmail.com</div>
       <div class="phoneNumber">P 010-4496-2415</div>
     </footer>
+
+    <script></script>
   </body>
 </html>
