@@ -11,21 +11,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-
-    <style>
-      a:visited {
-        opacity: 0.3;
-      }
-      
-    </style>
   </head>
   <body>
     <header class="header-bar">
       <div class="menuBtn"><i class="fas fa-bars"></i></div>
-      <div class="header-logo">로고자리</div>
+      <div class="header-logo">
+        <img class="header-logo" src="./images/4l-logo.png" />
+      </div>
       <div class="signIn">Sign in</div>
       <div class="signUp">Sign up</div>
     </header>
+
     <div class="contents">
       <div class="scrollBtns">
         <a class="scrollBtn-1" href="#content-1 ">
@@ -60,7 +56,14 @@
           <i class="fas fa-circle" style="color: #efc15a;"></i>
         </a>
       </div>
+
       <div class="content-1">
+        <div class="menus">
+          <div class="menu-1">Company Introduction</div>
+          <div class="menu-2">Product Introduction</div>
+          <div class="menu-3">Price Guidance</div>
+          <div class="menu-4">Request</div>
+        </div>
         <div class="content-1__W-D">
           <div>Website</div>
           <div>Development</div>
@@ -121,6 +124,15 @@
       <div class="phoneNumber">P 010-4496-2415</div>
     </footer>
 
-    <script></script>
+    <script>
+      const buttonArr = document.getElementsByTagName("i");
+
+      for (let i = 0; i < buttonArr.length; i++) {
+        buttonArr[i].addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(".content-" + i).scrollIntoView(true);
+        });
+      }
+    </script>
   </body>
 </html>
